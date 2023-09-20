@@ -1,7 +1,73 @@
-# Vue 3 + Vite
+# Vue 3 + Vite Project
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Deskripsi
 
-## Recommended IDE Setup
+Proyek ini adalah sebuah aplikasi message board berbasis web menggunakan Vue 3 sebagai framework frontend dan Vite sebagai bundler untuk mempercepat proses pengembangan.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Fitur Utama
+
+- Insert Pesan
+- Menampilkan Pesan
+- Update Pesan
+- Hapus Pesan
+
+## Instalasi
+
+### Persyaratan Sistem
+
+Pastikan Anda telah menginstal Node.js dan npm pada sistem Anda sebelum melanjutkan.
+
+### Langkah-langkah Instalasi
+
+1. Clone repositori ini ke lokal Anda:
+
+   ```bash
+   git clone https://github.com/MRienald/lokadata-test-vue.git
+   ```
+
+2. Masuk ke direktori proyek:
+
+   ```bash
+   cd lokadata-test-vue
+   ```
+
+3. Install dependensi:
+
+   ```bash
+   npm install
+   ```
+
+## Penggunaan
+
+Untuk memulai server pengembangan, jalankan perintah berikut:
+
+```bash
+npm run dev
+```
+
+## Struktur Proyek
+
+```
+src/
+|-- assets/
+|-- components/
+|-- router/
+|-- views/
+|-- App.vue
+|-- main.js
+public/
+|-- placeholder.svg
+|-- vite.svg
+```
+
+### Penjelasan Struktur
+
+- `src/`: Direktori utama kode sumber.
+  - `assets/`: Tempat untuk meletakkan gambar, CSS, atau file statis lainnya.
+  - `components/`: Komponen Vue yang dapat digunakan kembali.
+  - `router/`: Komponen Vue yang memungkinkan pengelolaan navigasi dalam aplikasi.
+  - `views/`: Komponen Vue yang mewakili halaman-halaman dalam aplikasi.
+  - `App.vue`: Komponen utama aplikasi.
+  - `main.js`: File utama yang memuat aplikasi Vue.
+
+- `public/`: File statis publik.
